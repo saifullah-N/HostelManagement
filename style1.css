@@ -1,0 +1,165 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.home-container{
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    background-image: url("/assets/hostel.jpg");
+    object-fit: fill;
+    padding: 0;
+    margin: 0;
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.form {
+    background-image: url("/assets/form.jpg");
+    object-fit: fill;
+    padding: 0;
+    margin: 0;
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+
+.learn-more{
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    color: black;
+    background: white;
+    padding: 100px 50px;
+}
+
+hr{
+    width: 80%;
+}
+h2{
+    font-size: 20px;
+}
+.contact-items{
+    display: flex;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.customer-care,.write-us,.sales-market{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+    margin: 30px auto;
+    padding: 35px 15px;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 250px;
+
+}
+.customer-care{
+    height: 250px;
+    box-shadow: 0 10px 15px black;
+    /*border: 1px solid white;*/
+}
+.write-us{
+    height: 250px;
+    box-shadow: 0 10px 15px black;
+    /*border: 1px solid red;*/
+}
+.sales-market{
+    height: 250px;
+    box-shadow: 0 10px 15px black;
+    /*border: 1px solid blue;*/
+}
+p{
+    font-size: 15px;
+}
+button{
+    padding: 8px 16px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    margin: 15px auto;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    color: gray;
+}
+#cust-care{
+    background: green;
+
+    box-shadow: 0 0 5px black;
+}
+#write{
+    background: rgb(187, 15, 15);
+
+    box-shadow: 0 0 5px black;
+}
+#sales{
+    background: blue;
+    box-shadow: 0 0 5px black;
+}
+a{
+    font-size: 16px;
+}
+.customer-care a{
+    color: green;
+    text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+}
+.sales-market a{
+    color: blue;
+    text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+}
+
+.FormContainer {
+    min-width:600px ;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    background: white;
+    opacity: 90%;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta name="theme-color" content="#1a008e">
+    <title>Kumaraguru Hostels</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body >
+
+<nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="nav-item">
+    <a class="brand" ><img  src="assets/logo.png" ></a>
+    </div>
+
+        <h4 class="navbar" style="color: white">KCT HOSTELS </h4>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#out-pass">Apply Outpass</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#contact-us">contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Login.html">Login</a>
+                </li>
+            </ul>
+<!--            <form class="form-inline my-2 my-lg-0">-->
+<!--                <input class="form-control mr-sm-2" type="search" placeholder="Search">-->
+<!--                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+<!--            </form>-->
+        </div>
+    </nav>
+<div class=" container-fluid home">
+        <button  class="learn-more btn-lg btn-dark">learn more</button>
+</div>
+
+<a name="out-pass"></a>
+<div class=" container-fluid form  ">
+    <div  class=" container-fluid FormContainer">
+   <form >
+        <div class="mb-3">
+            <label for="Email" class="form-label ">Email address</label>
+            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="name">
+        </div>
+
+        <div class="mb-3">
+            <label for="rollno" class="form-label">Rollno</label>
+            <input type="rollno" class="form-control" id="rollno">
+        </div>
+
+        <div class="mb-3">
+            <label for="hostel-no" class="form-label">Hostel No</label>
+            <input type="hostel-no" class="form-control" id="hostel-no">
+        </div>
+
+        <div class="mb-3">
+            <label for="reason" class="form-label">Reason</label>
+            <textarea class="form-control" id="reason" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+</div>
+
+<div class="contact-container">
+    <h1><a name="contact-us"></a> Contact Us</h1>
+    <hr>
+    <h2>Feel free to contact us</h2>
+    <div class="contact-items">
+        <div class="customer-care">
+            <h3>Sick Care</h3>
+            <p>Contact </p>
+<!--            <button id="cust-care"> Submit a Request</button>-->
+            <a href="#">+91 123456789</a>
+        </div>
+        <div class="write-us">
+            <h3>Queries</h3>
+            <p> You can write us if you have any queries</p>
+            <a href="#"> <button id="write">Raise a Query</button></a>
+            <!-- <a href="./contact-form.html"> <button id="write">Write</button></a>  u-->
+        </div>
+        <div class="sales-market">
+            <h3> Fees</h3>
+            <p>Get in touch with our sales and marketing team</p>
+<!--            <button id="sales">Contact Sales</button>-->
+            <a href="#">View Plans</a>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
